@@ -348,8 +348,6 @@ with st.sidebar:
         with st.expander("Lihat fitur final model"):
             st.write(expected_features)
 
-    st.divider()
-    st.header("✨ AI Insight")
     if not ANTHROPIC_AVAILABLE:
         st.warning("Package `anthropic` belum terinstall. Jalankan `pip install anthropic`.")
     def _get_secret_key():
