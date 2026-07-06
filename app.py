@@ -369,7 +369,7 @@ with st.sidebar:
 # ============================================================
 # HEADER
 # ============================================================
-st.title("📊 Prediksi Probability of Default (PD)")
+st.title("📊 Probability of Default (PD) Model")
 st.caption("Upload data customer untuk memprediksi risiko gagal bayar menggunakan model XGBoost.")
 
 # ============================================================
