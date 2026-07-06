@@ -1,0 +1,44 @@
+{
+  "model_file": "xgb_pd_model_20260706_111418.pkl",
+  "created_at": "20260706_111418",
+  "best_params": {
+    "n_estimators": 459,
+    "max_depth": 3,
+    "min_child_weight": 17,
+    "learning_rate": 0.024120153594142015,
+    "subsample": 0.8899226975755719,
+    "reg_lambda": 13,
+    "gamma": 1.2934416534895399,
+    "colsample_bytree": 0.8783179018924674,
+    "reg_alpha": 2.5980358106415977
+  },
+  "threshold": 0.45599999999999996,
+  "threshold_metric": "ks",
+  "cv_performance": {
+    "auc_mean": 0.7020490953817757,
+    "gini_mean": 0.4040981907635516,
+    "ks_mean": 0.3091306957840117,
+    "accuracy_mean": 0.6537114845938375,
+    "precision_mean": 0.23731365205909802,
+    "recall_mean": 0.6429602061955003,
+    "f1_mean": 0.3465603912949417,
+    "logloss_mean": 0.6115730334705359,
+    "brier_mean": 0.2126906156643995,
+    "best_threshold_mean": 0.45599999999999996,
+    "best_threshold_std": 0.040792156108742275
+  },
+  "n_features": 10,
+  "feature_names": [
+    "home_ownership",
+    "emp_length_int",
+    "mths_since_issue_d",
+    "int_rate",
+    "mths_since_earliest_cr_line",
+    "inq_last_6mths",
+    "annual_inc",
+    "dti",
+    "credit_emp_ratio",
+    "risk_score"
+  ],
+  "xgboost_version": "3.3.0"
+}
