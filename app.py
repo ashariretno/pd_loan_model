@@ -358,6 +358,19 @@ with st.sidebar:
 
     api_key_input = _get_secret_key()
 
+   # ------------------------------------------------------------
+    # Credit / footer di pojok kiri bawah sidebar
+    # ------------------------------------------------------------
+    st.markdown(
+        """
+        <div style="position: fixed; bottom: 12px; left: 18px; opacity: 0.6; font-size: 0.8rem;">
+            created by Ashari Retno
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+ 
+
 # ============================================================
 # HEADER
 # ============================================================
